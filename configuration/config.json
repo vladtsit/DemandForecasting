@@ -1,0 +1,6 @@
+{
+    "subscription_id": "Your Azure Subscription ID",
+    "resource_group": "Your Resource Group Name",
+    "workspace_name": "Your Azure ML Workspace Name",
+    "location": "Azure ML Location"
+}
