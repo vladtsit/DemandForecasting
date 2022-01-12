@@ -108,7 +108,6 @@ Send2Trash==1.5.0
 six==1.13.0
 statsmodels==0.11.1
 streamlit==0.62.0
-swagger-client==1.0.0
 terminado==0.8.3
 testpath==0.4.4
 toml==0.10.1
