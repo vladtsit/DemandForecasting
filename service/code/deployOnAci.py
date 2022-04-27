@@ -50,7 +50,7 @@ ws = Workspace.get(
         name=workspace_name,
         subscription_id=subscription_id,
         resource_group=resource_group
-        #,auth=cli_auth
+        ,auth=cli_auth
     )
 
 env = Environment.get(workspace=ws, name="AzureML-Minimal")
