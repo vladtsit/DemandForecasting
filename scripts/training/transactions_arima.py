@@ -29,14 +29,8 @@ run = Run.get_context()
 #dataset = run.input_datasets['transaction_ts']
 
 ws = run.experiment.workspace
-#dataset1 = Dataset.get_by_name(workspace=ws, name='transaction_ts2013')
-#df = dataset1.to_pandas_dataframe()
-
 dataset1 = Dataset.get_by_name(workspace=ws, name='transaction_ts2013')
-dataset2 = Dataset.get_by_name(workspace=ws, name='transaction_ts2014')
-df1 = dataset1.to_pandas_dataframe()
-df2 = dataset2.to_pandas_dataframe()
-df = pd.concat([df1, df2])
+df = dataset1.to_pandas_dataframe()
 
 df.set_index('TransactionDate',inplace=True)
 df.columns = ['PaidAmount']
