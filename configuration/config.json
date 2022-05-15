@@ -1,6 +1,6 @@
 {
-    "subscription_id": "10eca58d-d2fb-4fcc-9e4b-bc6312fa39ee",
-    "resource_group": "v-akarpova",
-    "workspace_name": "v-akarpova_forDF",
+    "subscription_id": "your_subscription_id",
+    "resource_group": "your_resource_group",
+    "workspace_name": "your_workspace_name",
     "location": "Azure ML Location"
 }
